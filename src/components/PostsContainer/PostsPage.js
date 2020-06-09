@@ -14,7 +14,7 @@ const PostsPage = () => {
       {/* map through data here to return a Post and pass data as props to Post */}
       {userPosts.map((userObject) => {
         // console.log(userObject);
-        return <Post key={userObject.id} post={userObject} />;
+        return <Post key={userObject.id} post={userObject}/>;
       })}
     </div>
   );
