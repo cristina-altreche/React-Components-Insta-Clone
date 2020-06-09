@@ -4,7 +4,7 @@
   min-width: 400px;
   margin: 5px auto;
 }
-.post-header{
+.post-header {
   display: flex;
   align-items: center;
 }
@@ -42,15 +42,26 @@
 .like-section {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+  margin-left:10px;
+  font-size: 1.2rem;
 }
 
 .like-section-wrapper {
   height: 10px;
   width: 10px;
-  margin: 10px;
+  margin: 5px;
+  padding-left: 10px;
 }
+.like1-section-wrapper{
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+}
+
 .like-number {
   width: 100px;
   margin: 15px 0px;
-  font-size: 16px;
+  font-size: 13px;
+  
 }
