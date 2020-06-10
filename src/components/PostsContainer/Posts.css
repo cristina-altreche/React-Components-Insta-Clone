@@ -44,7 +44,7 @@
   justify-content: flex-start;
   align-items: center;
   margin-left:10px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .like-section-wrapper {
@@ -60,8 +60,10 @@
 }
 
 .like-number {
-  width: 100px;
-  margin: 15px 0px;
-  font-size: 13px;
+  width: 100%;
+  margin: 12px 0px 5px 17px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
   
 }

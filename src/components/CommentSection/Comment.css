@@ -4,7 +4,7 @@
   margin-left: 10px;
 }
 .comment {
-  font-size: 13px;
+  font-size: 12px;
 }
 .comment-form  {
   margin: 10px 0;
@@ -12,14 +12,14 @@
 }
 .comment-form input {
   width: 90%;
-  font-size: 13px;
+  font-size: 12px;
   padding: 10px;
   border: none;
   border-top: 1px solid #efefef;
   color: #999;
 }
 .user {
-  font-size: 13px;
+  font-size: 12px;
   margin-left: 5px;
   margin-right: 5px;
   color: black;

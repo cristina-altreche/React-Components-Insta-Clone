@@ -9,7 +9,6 @@ const LikeSection = (props) => {
   return (
     <div>
       <div className="like-section" key="likes-icons-container">
-        {/* <div onClick={props.increase} className="like1-section-wrapper"> */}
         <div
           onClick={() => {
             if (props.heartColor === "white") {

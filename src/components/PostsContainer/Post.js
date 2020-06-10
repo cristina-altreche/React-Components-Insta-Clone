@@ -13,13 +13,6 @@ const Post = (props) => {
   //if white then add 1 to userLikes and turn heart to red
   //if red then subtract 1 to userLikes and turn heart to white
   const [heart, setHeart] = useState("white");
-  const increase = (e) => {
-    setUsersLikes(usersLikes + 1);
-  };
-  const decrease = (e) => {
-    setUsersLikes(usersLikes - 1);
-    setHeart("red");
-  };
 
   return (
     <div className="post-border">
@@ -37,8 +30,6 @@ const Post = (props) => {
       <LikeSection
         likes={usersLikes}
         setLikes={setUsersLikes}
-        increase={increase}
-        decrease={decrease}
         heartColor={heart}
         setHeartColor={setHeart}
       />
