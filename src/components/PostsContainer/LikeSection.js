@@ -9,7 +9,19 @@ const LikeSection = (props) => {
   return (
     <div>
       <div className="like-section" key="likes-icons-container">
-        <div onClick={props.increase} className="like1-section-wrapper">
+        {/* <div onClick={props.increase} className="like1-section-wrapper"> */}
+        <div
+          onClick={() => {
+            if (props.heartColor === "white") {
+              props.setLikes(props.likes + 1);
+              props.setHeartColor("red");
+            } else {
+              props.setLikes(props.likes - 1);
+              props.setHeartColor("white");
+            }
+          }}
+          className="like1-section-wrapper"
+        >
           <FontAwesomeIcon icon={faHeart} />
         </div>
         <div className="like-section-wrapper">
