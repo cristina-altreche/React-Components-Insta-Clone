@@ -13,6 +13,7 @@
 .search-form input {
   text-align: center;
   color: #262626;
+  width: 250px;
 }
 
 .logo-image {
@@ -25,4 +26,5 @@
 
 .social {
   width: 50px;
+  font-size: 2rem;
 }

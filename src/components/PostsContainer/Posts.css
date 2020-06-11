@@ -4,7 +4,7 @@
   min-width: 400px;
   margin: 5px auto;
 }
-.post-header{
+.post-header {
   display: flex;
   align-items: center;
 }
@@ -42,15 +42,28 @@
 .like-section {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+  margin-left:10px;
+  font-size: 1.1rem;
 }
 
 .like-section-wrapper {
   height: 10px;
   width: 10px;
-  margin: 10px;
+  margin: 5px;
+  padding-left: 10px;
 }
+.like1-section-wrapper{
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+}
+
 .like-number {
-  width: 100px;
-  margin: 15px 0px;
-  font-size: 16px;
+  width: 100%;
+  margin: 12px 0px 5px 17px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  
 }
